@@ -11,5 +11,5 @@
     $respuesta = curl_exec($ch);
     curl_close($ch);
 
-    file_put_contents(filename:"test.txt", $respuesta);
+    file_put_contents("test.txt", $respuesta);
 ?>
